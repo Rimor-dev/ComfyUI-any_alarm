@@ -6,7 +6,7 @@
 
 
 
-!\[any_alarm in action](screenshot.png) \*— add a screenshot later\*
+[any_alarm in action](screenshot.png)
 
 
 
@@ -127,6 +127,7 @@ pygame
 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
 
 
