@@ -6,7 +6,7 @@
 
 
 
-!\[any\_alarm in action](screenshot.png) \*— add a screenshot later\*
+!\[any_alarm in action](screenshot.png) \*— add a screenshot later\*
 
 
 
@@ -38,7 +38,7 @@
 
 &nbsp;  cd ComfyUI/custom\_nodes/
 
-&nbsp;  git clone https://github.com/YOUR\_USERNAME/ComfyUI-any\_alarm.git
+&nbsp;  git clone https://github.com/YOUR\_USERNAME/ComfyUI-any_alarm.git
 
 
 
@@ -66,7 +66,7 @@ pip install pygame
 
 
 
-Voice modes require exact filenames: start.wav, load complete.wav, work complete.wav
+Voice modes require exact filenames: start.wav, load_complete.wav, work_complete.wav
 
 
 
@@ -80,7 +80,7 @@ Custom mode accepts any .mp3 or .wav files
 
 🎮 How to Use
 
-Find 🔔 any\_alarm in the alarm category
+Find 🔔 any_alarm in the alarm category
 
 
 
@@ -127,5 +127,6 @@ pygame
 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
 
