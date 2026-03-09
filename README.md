@@ -32,13 +32,13 @@
 \## 🚀 Installation
 
 
-1\. \*\*Clone or download\*\* this repository into `ComfyUI/custom\_nodes/`
+1\. \*\*Clone or download\*\* this repository into `ComfyUI/custom_nodes/`
 
 &nbsp;  ```bash
 
-&nbsp;  cd ComfyUI/custom\_nodes/
+&nbsp;  cd ComfyUI/custom_nodes/
 
-&nbsp;  git clone https://github.com/YOUR\_USERNAME/ComfyUI-any_alarm.git
+&nbsp;  git clone https://github.com/YOUR_USERNAME/ComfyUI-any_alarm.git
 
 
 
@@ -50,7 +50,7 @@ bash
 
 \# On Windows (adjust path to your ComfyUI python)
 
-cd ComfyUI/python\_embeded
+cd ComfyUI/python_embeded
 
 python.exe -m pip install pygame
 
@@ -127,6 +127,7 @@ pygame
 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
 
 
