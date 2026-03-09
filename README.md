@@ -1,13 +1,11 @@
-\# 🔔 any\_alarm — Universal Signal Notifier for ComfyUI
+\# 🔔 any_alarm — Universal Signal Notifier for ComfyUI
 
 
 
-\*\*any\_alarm\*\* is a simple yet powerful node that plays a sound whenever it receives any signal (image, latent, conditioning, etc.). Perfect for notifications when a generation starts, completes, or any custom event.
+\*\*any_alarm\*\* is a simple yet powerful node that plays a sound whenever it receives any signal (image, latent, conditioning, etc.). Perfect for notifications when a generation starts, completes, or any custom event.
 
 
-
-[any_alarm in action](screenshot.png)
-
+<img src="screenshot.png" alt="any_alarm" width="720">
 
 
 \## ✨ Features
@@ -127,6 +125,7 @@ pygame
 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
 
 
