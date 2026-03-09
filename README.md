@@ -29,61 +29,7 @@
 \- 🔌 \*\*Signal input\*\* — connect anything (images, latents, etc.)
 
 
-
-\## 📁 Folder Structure
-
-
-
-After installation, your `custom\_nodes/ComfyUI-any\_alarm/` should look like:
-
-
-
-ComfyUI/
-
-└── custom\_nodes/
-
-└── ComfyUI-any\_alarm/
-
-├── init.py
-
-├── any\_alarm.py
-
-├── requirements.txt
-
-└── sounds/
-
-├── female/
-
-│ ├── start.wav
-
-│ ├── load complete.wav
-
-│ └── work complete.wav
-
-├── male/
-
-│ ├── start.wav
-
-│ ├── load complete.wav
-
-│ └── work complete.wav
-
-├── robot/
-
-│ ├── start.wav
-
-│ ├── load complete.wav
-
-│ └── work complete.wav
-
-└── custom/ ← put your own sounds here
-
-
-
-
-
 \## 🚀 Installation
-
 
 
 1\. \*\*Clone or download\*\* this repository into `ComfyUI/custom\_nodes/`
@@ -181,4 +127,5 @@ pygame
 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
