@@ -1,4 +1,4 @@
-\# 🔔 any_alarm — Universal Signal Notifier for ComfyUI
+# 🔔 any_alarm — Universal Signal Notifier for ComfyUI
 
 
 
@@ -8,7 +8,7 @@
 <img src="screenshot.png" alt="any_alarm" width="720">
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
@@ -27,56 +27,33 @@
 \- 🔌 \*\*Signal input\*\* — connect anything (images, latents, etc.)
 
 
-\## 🚀 Installation
+## 🚀 Installation
+
+1. **Clone or download** this repository into `ComfyUI/custom_nodes/`
+   ```bash
+   cd ComfyUI/custom_nodes/
+   git clone https://github.com/YOUR_USERNAME/ComfyUI-any_alarm.git
+
+2. **Install pygame** (required for sound playback)
+   ```bash
+   # On Windows (adjust path to your ComfyUI python)
+   cd ComfyUI/python_embeded
+   python.exe -m pip install pygame
+
+   # On Linux/Mac
+   pip install pygame
 
 
-1\. \*\*Clone or download\*\* this repository into `ComfyUI/custom_nodes/`
-
-&nbsp;  ```bash
-
-&nbsp;  cd ComfyUI/custom_nodes/
-
-&nbsp;  git clone https://github.com/YOUR_USERNAME/ComfyUI-any_alarm.git
-
-
-
-2\. Install pygame (required for sound playback)
-
-
-
-bash
-
-\# On Windows (adjust path to your ComfyUI python)
-
-cd ComfyUI/python_embeded
-
-python.exe -m pip install pygame
-
-
-
-\# On Linux/Mac
-
-pip install pygame
-
-
-
-3\. Add your sound files to the appropriate folders
-
-
+3. **Add your sound files to the appropriate folders**
 
 Voice modes require exact filenames: start.wav, load_complete.wav, work_complete.wav
-
-
-
 Custom mode accepts any .mp3 or .wav files
 
 
 
-4\. Restart ComfyUI
+4. **Restart ComfyUI**
 
-
-
-🎮 How to Use
+## 🎮 How to Use
 
 Find 🔔 any_alarm in the alarm category
 
@@ -102,7 +79,7 @@ Run your workflow — the sound will play every time a signal arrives
 
 
 
-🛠️ Custom Sounds
+## 🛠️ Custom Sounds
 
 For voice modes, files must be named exactly as the event
 
@@ -112,19 +89,18 @@ For custom mode, just put your .mp3/.wav in sounds/custom/ — they'll appear in
 
 
 
-📝 Requirements
+## 📝 Requirements
 
 Python 3.10+
-
-
 
 pygame
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork, submit PRs, or suggest improvements!
+
 
 
 
